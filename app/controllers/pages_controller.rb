@@ -1,10 +1,9 @@
-require "openai"
 
 class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :chat ]
 
   def chat
-    client = OpenAI::Client.new(api_key: "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")
+    client = OpenAI::Client.new(api_key: ENV["OPENAI_ACCESS_TOKEN"])
 
 
     @response = client.completions(

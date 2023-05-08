@@ -81,7 +81,7 @@ end
 gem 'foreman', '~> 0.87.2'
 
 # open-ai implementation
-gem "ruby-openai", "~> 4.0.0"
+gem "openai"
 
 # Simple, efficient background processing using Redis.
 # https://github.com/sidekiq/sidekiq
