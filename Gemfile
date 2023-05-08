@@ -76,3 +76,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# open-ai implementation
+gem "ruby-openai", "~> 4.0.0"
+
+# Simple, efficient background processing using Redis.
+# https://github.com/sidekiq/sidekiq
+gem "sidekiq", "~> 7.0.9"
