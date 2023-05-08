@@ -77,6 +77,9 @@ group :test do
   gem "webdrivers"
 end
 
+# procfile setup
+gem 'foreman', '~> 0.87.2'
+
 # open-ai implementation
 gem "ruby-openai", "~> 4.0.0"
 
